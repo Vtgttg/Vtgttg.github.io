@@ -1,0 +1,68 @@
+.reasons {
+    padding: 70px 0 65px 0;
+}
+
+.label {
+    position: relative;
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title {
+position: relative;
+margin-top: 38px;
+margin-bottom: 0;
+color: $black;
+font-size: 38px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+}
+
+.reason_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px
+}
+
+.reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    height: 113px;
+    width: 113px;
+    background-color:  $gradient1;
+    border-radius: 100%;
+}
+
+.reasons_discr {
+    width: 343px;
+
+}
+
+.reasons_subtitle {
+    position: relative;
+    margin-top: 20px;
+    color: $black;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.reasons_text {
+    color: $black;
+    font-size: 15px ;
+    font-weight: 300;
+    line-height: 21px;
+}
+

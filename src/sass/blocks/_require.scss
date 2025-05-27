@@ -1,0 +1,63 @@
+.require {
+    margin: 0 56px 0 87px;
+
+    &-block{
+        margin: 37px 0 ;
+    }
+
+    &-title {
+        color: $golyboy;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    &-list {
+        margin-top: 26px;
+        padding-left: 50px;
+        list-style-type: none;
+        li{
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 24px;
+            margin-bottom: 10px;
+            position: relative;
+            &:before{
+                content:"";
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: -32px;
+                height: 20px;
+                width: 20px;
+                background: url("../icons/Rec.png") center center/cover no-repeat;
+                
+            }
+        }
+    }
+
+    &-disr {
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 300;
+        color: $golyboy;
+    }
+
+}
+.title2 {
+text-align: center;
+text-transform: uppercase;
+margin-top: 28px;
+}
+
+.worning{
+    .require-title{
+        color: #FF5656;
+    }
+    .require-list{
+        li{
+            &:before{
+                background: url("../icons/Rec2.png") center center/cover no-repeat;
+            }
+        }
+    }
+}

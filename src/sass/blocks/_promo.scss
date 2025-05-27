@@ -1,0 +1,44 @@
+.promo {
+    height: 880px;
+    background: url("../img/uber_bg.png") center (center/cover) no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo_header {
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+}
+
+.promo_subheader {
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+}
+
+.promo_discr {
+    font-weight: 400;
+    color: $white;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo_btn {
+    display: block;
+    width: 269px;
+    height: 63px;
+    margin: 115px auto 0 auto  ;
+    background-image: linear-gradient(to top,  $gradient1 0%, $gradient2 100%);
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 18px;
+    border: none;
+    border-radius: 7.5px;
+    text-shadow: 1px 1px 0 rgba(0 ,0 ,0 , .2);
+}

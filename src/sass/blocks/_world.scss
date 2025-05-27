@@ -1,0 +1,26 @@
+.world {
+    min-height: 716px;
+    padding: 50px 0 50px 0;
+    position: relative;
+    background: url("../img/world_bg.png");
+}
+.label {
+background-color: aliceblue;
+color: black ;
+}
+.title {
+text-align: center;
+color: azure;
+}
+.subtitle {
+text-align: center;
+color: aliceblue;
+}
+
+.silka_world{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    text-decoration: none;
+}

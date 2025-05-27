@@ -1,0 +1,72 @@
+.mobile {
+    min-height: 864px;
+    padding: 48px 0 80px 0;
+    background: url("../img/5287476058934864446.jpg") center center/cover no-repeat;
+  
+    .subtitle {
+      font-size: 17px;
+      font-weight: 400;
+      text-align: center;
+    }
+  
+    .row {
+      margin-top: 32px;
+    }
+  
+    &-item {
+      position: relative;
+      width: 320px;
+      height: 280px;
+      margin: 0 auto;
+      margin-bottom: 19px;
+      padding-top: 90px;
+  
+      &-1 {
+        background: url("../img/5287476058934864440.jpg") center (center / cover)
+          no-repeat;
+      }
+      &-2 {
+        background: url("../img/5287476058934864440.jpg") center (center / cover)
+          no-repeat;
+      }
+      &-3 {
+        background: url("../img/5287476058934864440.jpg") center (center / cover)
+          no-repeat;
+      }
+      &-4 {
+        background: url("../img/5287476058934864440.jpg") center (center / cover)
+          no-repeat;
+      }
+      &-5 {
+        background: url("../img/5287476058934864440.jpg") center (center / cover)
+          no-repeat;
+      }
+      &-6 {
+        background: url("../img/5287476058934864440.jpg") center (center / cover)
+          no-repeat;
+      }
+      &-subtitle {
+        color: $white;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 31px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+  
+      &-plus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 34px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: $gradient2;
+        width: 28px;
+        height: 28px;
+        border-radius: 100%;
+        cursor: pointer;
+      }
+    }
+  }

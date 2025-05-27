@@ -1,0 +1,48 @@
+.choice {
+    min-height: 899px;
+    position: relative;
+    padding: 59px 0 138px 0;
+    background: url("../img/5287476058934864446.jpg") center center/cover no-repeat;
+
+
+    &-img{
+        z-index: 2;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.black {
+position: absolute;
+background-color: #070716;
+height: 500px;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1 ;
+}
+
+.label1 {
+background-color: white;
+z-index: 2;
+color: black;
+}
+
+.title1 {
+    z-index: 2;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.subtitle1 {
+    z-index: 2;
+    color: $white;
+    text-align: center;
+    position: relative;
+}
+
+.discription {
+    text-align: center;
+}
